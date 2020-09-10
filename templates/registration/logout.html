@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="header"></div>
+            <h3>Приходите еще!</h3>
+            <a href="{% url 'index' %}">Вернуться на главную</a>
+    </div>
+{% endblock %}
